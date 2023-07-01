@@ -32,6 +32,7 @@ namespace Player_Management.Controllers
 
 		}
 
+
 		[HttpPost]
 		public async Task<IActionResult> generateToken(Users users)
 		{
